@@ -1,4 +1,7 @@
-pintos-linked-list-example
-==========================
+# To Compile
 
-An example of using the PintOS linked list implementation.
+To compile the code in this example, you can do
+
+> gcc -I. -o run_me support.c list.c starter.c
+
+which you can convert to a Makefile at your leisure.
