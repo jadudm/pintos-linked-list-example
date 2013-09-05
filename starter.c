@@ -26,9 +26,9 @@ int main () {
 	struct birthdate *b = (struct birthdate *) malloc (sizeof (struct birthdate));
 
 	/* Fill it. */
-	b->year  = 1990;
-	b->month = 3;
-	b->day   = 14;
+	(*b).year  = 1990;
+	(*b).month = 3;
+	(*b).day   = 14;
 		
 	/* Push the element onto the front of the list */
 	list_push_front (&birthdate_list, &b->elem);
